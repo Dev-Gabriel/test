@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LocalizedDataSet>
+	<Component>
+		<Key>ASC-PresentationServer</Key>
+		<DisplayName>Citrix XenApp Management</DisplayName>
+	</Component>
+	<Component>
+		<Key>ASC-CPMConsole</Key>
+		<DisplayName>Citrix 单点登录控制台</DisplayName>
+	</Component>
+	<Component>
+		<Key>CitrixGroupPolicyManagement</Key>
+		<DisplayName>Citrix 组策略管理</DisplayName>
+	</Component>
+	<Component>
+		<Key>CitrixXenAppCommandsClient</Key>
+		<DisplayName>Citrix XenApp Commands for Clients</DisplayName>
+	</Component>
+	<Eula>
+		<Key>Main</Key>
+		<FileName>EULA.rtf</FileName>
+		<ScrollRequired>继续操作之前，必须先滚动到许可协议结尾。</ScrollRequired>
+	</Eula>
+    <Group>
+        <Key>PresentationServer</Key>
+        <DisplayName>XenApp</DisplayName>
+        <Description>这些安装特定于 XenApp。</Description>
+    </Group>
+    <String>
+        <Key>ApplicationTitle</Key>
+        <Value>Citrix AppCenter 安装</Value>
+    </String>
+    <String>
+        <Key>WelcomePageTitle</Key>
+        <Value>欢迎使用 Citrix AppCenter 安装</Value>
+    </String>
+</LocalizedDataSet>
